@@ -24,11 +24,12 @@ namespace Exercicio16
             {
                 textBox3.UseSystemPasswordChar = true;
             }
-
+            
         }
 
         private void checkBox1_Click(object sender, EventArgs e)
         {
         }
     }
-}
+} /* mostrar password
+   */
