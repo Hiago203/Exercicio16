@@ -5,9 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Exercicio16
-{
-    public class Class1
+{  
+    public class MinhaClasse
     {
+       public static string? Nome;
+        public static string? Email;
+        public static string? Password;
 
     }
 }

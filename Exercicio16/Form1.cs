@@ -8,9 +8,18 @@ namespace Exercicio16
         }
 
         private void button1_Click(object sender, EventArgs e)
+
         {
+            MinhaClasse.Nome = textBox1.Text;
+            MinhaClasse.Email = textBox2.Text;
+            MinhaClasse.Password = textBox3.Text;
+            label4.Text = "Utilizador: " + MinhaClasse.Nome;
 
             MessageBox.Show("Foi Guardado");
+
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
 
         }
 
@@ -24,11 +33,17 @@ namespace Exercicio16
             {
                 textBox3.UseSystemPasswordChar = true;
             }
-            
+
         }
 
         private void checkBox1_Click(object sender, EventArgs e)
         {
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
         }
     }
 } /* mostrar password

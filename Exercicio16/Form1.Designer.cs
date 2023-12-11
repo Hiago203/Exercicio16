@@ -37,6 +37,7 @@
             button1 = new Button();
             checkBox1 = new CheckBox();
             label4 = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -119,11 +120,22 @@
             label4.TabIndex = 8;
             label4.Text = "Nome de Utilizador:";
             // 
+            // button2
+            // 
+            button2.Location = new Point(303, 352);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 9;
+            button2.Text = "Proximo";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(385, 387);
+            Controls.Add(button2);
             Controls.Add(label4);
             Controls.Add(checkBox1);
             Controls.Add(button1);
@@ -150,5 +162,6 @@
         private Button button1;
         private CheckBox checkBox1;
         private Label label4;
+        private Button button2;
     }
 }
