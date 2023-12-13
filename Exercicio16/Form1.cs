@@ -10,6 +10,10 @@ namespace Exercicio16
         private void button1_Click(object sender, EventArgs e)
 
         {
+            /* string nome = ConvertToString
+             * (txtnome.text)
+             * nome = utilizador.Nome 
+             */
             MinhaClasse.Nome = textBox1.Text;
             MinhaClasse.Email = textBox2.Text;
             MinhaClasse.Password = textBox3.Text;
@@ -31,6 +35,8 @@ namespace Exercicio16
             }
             else
             {
+                /* propriedades usessystempasswordchar por true
+                 */
                 textBox3.UseSystemPasswordChar = true;
             }
 

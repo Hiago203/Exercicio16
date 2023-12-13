@@ -19,6 +19,7 @@ namespace Exercicio16
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label1.Text = MinhaClasse.Nome;
             textBox1.Text = MinhaClasse.Nome;
             textBox2.Text = MinhaClasse.Email;
             textBox3.Text = MinhaClasse.Password;
